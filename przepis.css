@@ -1,0 +1,275 @@
+body {
+    background-image: url('tlo.jpg');
+	background-size: 100%;
+    font-family: Josefin Sans;
+    line-height: 1.4;
+    color: #0a0a0a;
+	margin: 0;
+}
+
+header
+{
+	background-color: white;
+	height: 37px;
+	margin-top: -7px;
+	padding-left: 16%;
+	padding-bottom: 20px;
+	}
+	
+		
+ol
+{
+	list-style-type: none;
+}
+
+ol a {
+	color: #3d6f20;
+	font-weight: bold;
+	position:relative;
+    top:-11px;
+	font-size: 15px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+	margin: 30px;
+	margin-bottom: 6px;
+	z-index: 2;
+}
+	
+	
+ol a:hover 
+{
+	color: #1b572b;
+}
+
+
+ol > li
+{
+	float: left;
+}
+
+ol > li > ul 
+{
+	list-style-type:none;
+	display:none;
+	width: 100px;
+}
+
+ol > li > ul > li
+{
+	width: 300px;
+	height: 49px;
+	margin-left: -59px;
+	text-align: left;
+}
+
+ol > li:hover > ul 
+{
+	display:block;
+	background-color: white;
+	position: absolute;
+	width: 150px;
+	height: 300px;
+	padding: 0 10px 0 40px;
+	z-index: 2;
+}
+
+
+figcaption
+{
+	padding-left: 480px;
+	color: white;
+	font-style: italic;
+}
+
+main 
+{
+	background-color: white;
+	float: center;
+	margin: 20px 170px 20px 170px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: justify;  
+	font-size: 18px; 
+}
+
+.tlo{
+    height: 400px;
+	width: 65%;	
+    background-image: url("bawarka.png");
+    margin-left: 80px;
+	position: relative;
+	
+}
+
+
+.text_box h2
+{
+	color: black;
+	font-style: italic;
+	font-size: 25px;
+	padding-top: 5px;
+	text-align: left;
+	font-weight: lighter;
+}
+
+.text_box h3
+{
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+	padding-top: 5px;
+	text-align: left;
+	font-weight: lighter;
+	font-weight: bold;
+}
+
+.tooltip{
+	background-color: rgb(54, 94, 52);
+	width: 250px;
+	height: 250px;
+	opacity: 0.8;
+	top: 200px; 
+	left: 920px; 
+	position: absolute;
+	text-align: center;
+}
+
+.tooltip p {
+	color: white;
+	font-size: 25px;
+	font-style: italic;
+	text-align: center;
+	
+}
+
+.tooltip hr{
+	width: 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.color{
+	color:rgb(54, 94, 52);
+	font-weight: bold;
+}
+
+.zdj2
+{
+	height: 250px;
+	width: 70%;
+	margin: auto;
+	background-color: #d1d1cf;
+	margin-top: 20px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.zdj2 p
+{
+	color: #3d6f20;
+	font-style: italic;
+	font-size: 20px;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 50px;
+	position: center;
+	margin: auto;
+}
+
+.logo
+{
+	margin-top: 30px;
+	margin-left: 290px;
+	box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+
+h2
+{
+	height: 37px;
+	margin-top: 170px;
+	padding-left: 36%;
+	color: #3d6f20;
+	font-weight: bold;
+}
+	
+ul 
+{
+	list-style-type: none;
+	padding: 3em;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+ul div 
+{
+	float: left;
+}
+
+ul div a 
+{
+	text-decoration: none;
+	color: #3d6f20;
+	background-color: white; 
+	display: block;
+	height: 270px;
+	width: 275px;
+	margin: 20px;
+	margin-left: 35px;
+	margin-top: -30px;
+	box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+
+ul div a img
+{
+	width: 245px;
+	height: 200px;
+	margin: 15px;
+	margin-bottom: 0;
+	box-shadow: 2px 2px 5px rgba(33,33,33,.7);
+}
+
+ul div a p
+{
+	bottom: 10px;
+	padding-left: 70px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+#box
+{
+	border: 2px solid #3d6f20;
+	border-radius: 15px;
+	width: 50%;
+	height: 200px;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	box-shadow: 2px 2px 5px black;
+}
+
+#result
+{
+	color: #3d6f20;
+	padding: 10px;
+}
+				
+				
+.button
+{
+	background-color: #3d6f20;
+	color: white;
+	width: 150px;
+	height: 40px;
+}
+
+
